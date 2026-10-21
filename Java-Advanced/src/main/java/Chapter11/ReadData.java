@@ -27,6 +27,7 @@ public class ReadData {
            objConnection.close();
 
         } catch (SQLException e) {
+
             System.out.println(e.getMessage());
         }
     }
